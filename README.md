@@ -1,1 +1,13 @@
 # CIS-1051-Final-Project
+Overall, this project was very eye opening to me in the sense that I realized just how many statistically based packages there are in python.
+For the most part, this project came kind of intuitively, since I already knew a bit about pandas and numpy. At the very least, importing the excel file and turning the variables into arrays was pretty easy. 
+Of course, this became harder once I started trying to solve for multiple linear regression, since the Ordinary Least Squares function I was using required a row of constants, which took me a while to figure out how to implement. Coupled with the fact that I also wanted to implement a graph showing the linear regression of Y with each of the Response variables, and I was forced to store the responses in two seperate variables(one with each row as an array, and one with each column as an array) for those two seperate reasons since each of them made one of those things easier and one of those things harder. 
+As far as the one and two sample tests/confidence intervals, those were pretty simple in terms of application, but finding the functions and figuring out how they worked was very difficult. There were multiple points where we could not figure out proportion testing, since it requires a much different set of data than a normal test. We settled on having the excel file be a binary counting of the success and failures as the variable to make calculations easier, but overall I do wish that the proportion testing was slightly more fit for a real world experience, but considering the way we have this function working, it would've been far too complicated.
+On the bright side, most of a visualizations with matplotlib came out great and were fairly easy to learn. 
+
+I learned many things from this project, and though most of them were just useful python packages, I also had to teach myself a bit about computers in general, since I had no idea to be honest. I legitimately think one of the more difficult things for me in this project was just starting it, since I didn't really know how jupyter notebook worked, what a pip was, or how to install packages. I feel pretty happy with how it came out overall though. As a stat major, this feels like something that, while not really a world shattering creation, could definitely save me some time in the future when it comes to testing based off data sets from excel.
+
+I honestly think that this was a good experience for me and am definitely going to look to use the things I learned with this project in the future with my career.
+
+
+video link:  https://youtu.be/SpieeCf4MkU
